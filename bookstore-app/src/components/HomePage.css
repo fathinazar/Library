@@ -1,0 +1,59 @@
+/* src/components/HomePage.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    margin-top: 70px; /* Adjust according to the height of your navbar */
+    margin-left: 220px; /* Adjust according to the width of your left section */
+    padding: 20px;
+    flex: 1; /* This ensures the main section takes up available space */
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Adjusts based on main content height */
+  }
+
+  .logout-alert {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f44336; /* Red background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  

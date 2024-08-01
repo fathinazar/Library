@@ -1,0 +1,88 @@
+/* src/pages/AddBook.css */
+
+.add-book-page {
+  display: flex;
+}
+
+.add-book {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.add-book h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.add-book form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.add-book label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.add-book input,
+.add-book textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.add-book textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.add-book button {
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-book button:hover {
+  background-color: #0056b3;
+}
+
+.image-preview {
+  margin-top: 1rem;
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.success-modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}

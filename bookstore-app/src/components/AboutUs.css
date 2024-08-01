@@ -1,0 +1,27 @@
+/* src/components/AboutUs.css */
+.about-us-container {
+    display: flex;
+    margin-top: 105px; /* Adjust according to the height of your navbar */
+  }
+  
+  .about-us-content {
+    margin-left: 220px; /* Adjust according to the width of your left section */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .about-us-content h1 {
+    margin-top: 0;
+    font-size: 2em;
+  }
+  
+  .about-us-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  

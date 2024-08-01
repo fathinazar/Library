@@ -1,0 +1,81 @@
+/* src/components/LoginPage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container full height */
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the form content */
+  }
+  
+  .login-form h1 {
+    margin-bottom: 1.5rem;
+    text-align: center; /* Align the title to the center */
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: left; /* Ensure labels are aligned left */
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    display: block;
+    width: auto; /* Adjust button width */
+    padding: 0.75rem 2rem; /* Adjust button padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 1rem; /* Add margin-top to the button */
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form .error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.5rem;
+  }
+  
+  .login-form .signup-link {
+    margin-top: 1rem; /* Add margin-top to the signup link */
+  }
+  
+  .login-form .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-form .signup-link a:hover {
+    text-decoration: underline;
+  }
+  

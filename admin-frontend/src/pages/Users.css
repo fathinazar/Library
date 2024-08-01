@@ -1,0 +1,52 @@
+/* src/pages/Users.css */
+
+.users-page {
+    display: flex;
+  }
+  
+  .users-container {
+    margin-left: 200px; /* Adjust this value according to your layout */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .users-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .user-card {
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card h3 {
+    margin: 0;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+  }
+  
+  .block-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .block-button:hover {
+    background: darkred;
+  }
+  

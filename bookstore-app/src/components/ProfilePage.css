@@ -1,0 +1,70 @@
+/* src/components/ProfilePage.css */
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .profile-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional: Add background color */
+    margin-left: 220px; /* Ensure space from the LeftSection */
+    margin-top: 100px; /* Add space from the Navbar */
+    border-radius: 8px; /* Optional: Add border radius */
+  }
+  
+  
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button.disabled {
+    background-color: #c0c0c0;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(.disabled) {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  

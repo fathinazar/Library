@@ -1,0 +1,48 @@
+/* src/components/LeftSection.css */
+.left-section {
+  position: fixed;
+  top: 105px; /* Adjust according to the height of your navbar */
+  left: 0;
+  width: 200px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: calc(100% - 70px); /* Adjust according to the height of your navbar */
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Add some space between the links */
+  border-radius: 10px;
+  
+}
+
+.left-section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(114, 114, 114);
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 549;
+  gap: 10px; /* Add space between the icon and the text */
+  padding: 10px 20px; /* Add padding to increase height and width */
+  width: 100%; /* Ensure the link takes up the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.left-section a:hover {
+  text-decoration: none;
+}
+
+.left-section a.active {
+  color: #000; /* Change this to your desired active color */
+  font-weight: bold; /* Optionally, make the text bold */
+  background-color: #e0e0e0; /* Optionally, add a background color */
+  border-radius: 20px; /* Optionally, add some border radius */
+  padding: 12px 22px; /* Adjust padding to increase highlight size */
+}
+
+.icon {
+  font-size: 1.3em; /* Adjust icon size */
+}
